@@ -10,7 +10,7 @@ from seesaw.event import Event
 import seesaw.six
 
 
-class ItemData(collections.MutableMapping):
+class ItemData(collections.abc.MutableMapping):
     '''Base item data property container.
 
     Args:
